@@ -1,102 +1,105 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Diseño y Desarrollo Frontend",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Creo interfaces intuitivas, rápidas y atractivas que conectan con tus usuarios. Desarrollo aplicaciones web con tecnologías modernas, optimizadas para ofrecer una experiencia fluida en cualquier dispositivo.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Arquitectura Frontend",
+        description: "(Componentes escalables, buenas prácticas, TypeScript)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "UI/UX Interactivo",
+        description: "(Diseños centrados en el usuario, animaciones suaves, microinteracciones)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Accesibilidad Web",
+        description: "(WCAG, navegación con teclado, contraste y legibilidad)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Optimizaciones Visuales y de Rendimiento",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Un buen diseño no sirve si no carga rápido. Mejoro el rendimiento y diseño visual con técnicas modernas, garantizando tiempos de carga óptimos y una experiencia de usuario impecable.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Performance UI",
+        description: "(Lazy loading, optimización de assets, Lighthouse 90+)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Responsive Design",
+        description: "(Diseño adaptado a móviles, tablets y escritorio)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Testing Visual",
+        description: "(Pruebas de interfaz, regresión visual, pixel-perfect control)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Sistemas de Diseño y Consistencia Visual",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Mantener la coherencia en tu producto es clave. Construyo y mantengo sistemas de diseño escalables para asegurar identidad visual y eficiencia en el desarrollo.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Design Systems",
+        description: "(Storybook, Figma → Código, tokens de diseño)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Componentes Reutilizables",
+        description: "(Buttons, Modals, Forms personalizados)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Tematización y Branding",
+        description: "(Dark mode, estilos personalizados por marca)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Aplicaciones Frontend Modernas",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Desde landing pages hasta apps complejas, desarrollo interfaces modernas con atención al detalle, enfocadas en una navegación clara, diseño atractivo y alto rendimiento.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Single Page Applications",
+        description: "(React, Vue, Angular con rutas dinámicas y estados)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Progressive Web Apps",
+        description: "(Experiencia tipo app, offline-ready, push notifications)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Integración con APIs",
+        description: "(Conexión fluida con backend, manejo visual de estados)",
       },
     ],
   },
 ];
+
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Banco interamericano - cartera inteligente",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "Participé en el desarrollo de un sistema bancario basado en un panel de control integral, diseñado para administradores de préstamos. Este panel incluía tablas dinámicas, indicadores clave, informes automatizados, cálculo de cifras financieras y múltiples estados en cada componente, permitiendo la gestión eficiente de créditos y la generación de informes anuales sobre el portafolio crediticio. Mi rol se centró en el prototipado y la definición del Design System, aplicando la metodología Atomic Design para estructurar pantallas, componentes y microcomponentes de manera modular y escalable. Posteriormente, llevé estos diseños a la maquetación en Angular, creando los componentes iniciales del proyecto para que el equipo de desarrollo frontend integrara la lógica necesaria. Para garantizar escalabilidad y mantenimiento eficiente, se emplearon bibliotecas especializadas de Angular Material y otras herramientas del ecosistema. Esta metodología permitió optimizar el desarrollo, asegurando una interfaz consistente y una experiencia de usuario fluida y para todo el tema de estilos utilice Sass, implementando variables, ng class, estilos aisaldos y generales dependiendo el componente a trabajar",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/reactcartera.JPG",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
+      { id: 1, name: "Figma" },
+      { id: 2, name: "Angular.js" },
       { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 4, name: "Sass" },
+      { id: 5, name: "Git - Gitlab" },
+      { id: 6, name: "AngularUI" },
+      { id: 7, name: "PrimeNg" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Spylt",
     description:
       "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
     href: "",
@@ -111,56 +114,57 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "clickerbait",
     description:
       "An e-commerce platform for Apple products and accessories with deals and category filtering.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/clickerbait.webp",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "Wordpress" },
+      { id: 2, name: "Elementor Pro" },
+      { id: 3, name: "Figma" },
+      { id: 4, name: "Js - Css" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Futuro valor",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "Un sitio web completo para la empresa de consultoria financiera, realice la marca, el trabajo completo de UX/UI y finalmente el desarrollo en Wordpress.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/futuro-valor.webp",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "Wordpress" },
+      { id: 2, name: "Elementor Pro" },
+      { id: 3, name: "Figma" },
+      { id: 4, name: "Js - Css" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Banco interamericano - Client portal",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "Sistema bancario basado en un panel de control integral, diseñado para administradores de préstamos.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+    image: "/assets/projects/idbangular.JPG",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
+      { id: 2, name: "AngularUI" },
+      { id: 3, name: "Figma" },
       { id: 4, name: "Material UI" },
+      { id: 5, name: "Git - Gitlab" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Inst. de siverseguridad de España - Incibe",
     description:
       "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
+    image: "/assets/projects/idsob.PNG",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "Svelte" },
@@ -171,11 +175,11 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
+  { name: "Instagram", href: "https://www.instagram.com/steventapiero.visual/" },
   {
     name: "Youtube",
     href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/steven-tapiero" },
+  { name: "GitHub", href: "https://github.com/steventapiero24?tab=overview&from=2025-07-01&to=2025-07-24" },
 ];
