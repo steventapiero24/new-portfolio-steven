@@ -46,13 +46,13 @@ const AnimatedHeaderSection = ({
           className="flex flex-col justify-center gap-12 pt-16 sm:gap-16"
         >
           <p
-            className={`text-pretty font-light tracking-[0.6rem] uppercase px-14 ${textColor}`}
+            className={`text-pretty font-light tracking-[0.3rem] uppercase px-14 ${textColor}`}
           >
             {subTitle}
           </p>
           <div className="px-10">
             <h1
-              className={`flex flex-col gap-12 tracking-[0.4rem]  uppercase banner-text-responsive sm:gap-16 md:block ${textColor}`}
+              className={`flex flex-col gap-12 tracking-[0.5rem]  uppercase banner-text-responsive sm:gap-16 md:block ${textColor}`}
             >
               {titleParts.map((part, index) => (
                 <span key={index}>{part} </span>
