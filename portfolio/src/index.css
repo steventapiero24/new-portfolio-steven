@@ -119,6 +119,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: var(--font-amiamie);
+  cursor: none;
 }
 
 @utility clip-path {
@@ -139,4 +140,8 @@ body {
 
 @utility contact-text-responsive {
   @apply text-[42px] sm:text-[52px] md:text-[62px] lg:text-[100px];
+}
+
+.custom-hover:hover {
+  background: black;
 }

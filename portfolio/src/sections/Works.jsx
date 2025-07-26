@@ -19,13 +19,14 @@ const Works = () => {
 
   useGSAP(() => {
     moveX.current = gsap.quickTo(previewRef.current, "x", {
-      duration: 1.5,
-      ease: "power3.out",
-    });
-    moveY.current = gsap.quickTo(previewRef.current, "y", {
-      duration: 2,
-      ease: "power3.out",
-    });
+  duration: 0.3,
+  ease: "power1.out",
+});
+moveY.current = gsap.quickTo(previewRef.current, "y", {
+  duration: 0.3,
+  ease: "power1.out",
+});
+
 
     gsap.from("#project", {
       y: 100,
@@ -115,7 +116,7 @@ const Works = () => {
           <div
             key={project.id}
             id="project"
-            className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
+            className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0 custom-hover"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
           >

@@ -9,6 +9,7 @@ import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
+import CustomCursor from "./components/Cursor/CustomCursor"
 
 const App = () => {
   const { progress } = useProgress();
@@ -40,6 +41,7 @@ const App = () => {
           isReady ? "opacity-100" : "opacity-0"
         } transition-opacity duration-1000`}
       >
+        <CustomCursor />
         <Navbar />
         <Hero />
         <ServiceSummary />
